@@ -71,7 +71,7 @@ function RealtimeChart(): JSX.Element {
           textColor: "white",
         },
         width:  chartContainerRef.current?.clientWidth,
-        height: chartContainerRef.current?.clientHeight,
+        height: window!.innerHeight,
         timeScale: {
           timeVisible: true,
         },
